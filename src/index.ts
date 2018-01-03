@@ -12,9 +12,10 @@ class Main {
 
 
 
-    gameStart(arg0: any, arg1: any): any {
+    gameStart(): void {
         console.log("执行");
         this.start = new GameStart();
+        Laya.stage.addChild(this.start);
 
     }
 
