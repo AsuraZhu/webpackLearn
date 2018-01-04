@@ -1,5 +1,5 @@
 import { GameStart } from "./GmaeStart";
-class Main {
+export class Main {
     constructor() {
         Laya.init(720,1280, Laya.WebGL);
         Laya.Stat.show();
@@ -9,6 +9,9 @@ class Main {
 
     
     private start: GameStart;
+
+    // 玩家得分
+    public static score:number = 0;
 
 
 
