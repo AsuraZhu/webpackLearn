@@ -14,9 +14,10 @@ export class Main {
     public static score:number = 0;
 
 
-
+    
     gameStart(): void {
         console.log("执行");
+        console.log("haha");
         this.start = new GameStart();
         Laya.stage.addChild(this.start);
 

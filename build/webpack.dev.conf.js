@@ -24,6 +24,7 @@ module.exports = {
       { test: /\.ts$/, use: "ts-loader" } // 使用了ts-loader
     ]
   },
+  devtool: '#cheap-module-eval-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebPackPlugin({
