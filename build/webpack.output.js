@@ -1,9 +1,14 @@
 const path = require("path")
 const webpack = require("webpack")
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const rm = require("ri")
 //为了 方便构建多入口文件  可以专门提供 一个文件夹 用于放置 入口文件 
 // 入口文件 之间不能存在引用关系 
 const webpackConfig = {
+    module:{
+        // externals: {
+        // }
+    },
     entry: {
         app: '../src/output.js',
         search: '../src/serach.js'
