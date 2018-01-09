@@ -1,5 +1,5 @@
 const webpack = require("webpack")
-const webpackConfig = require("./webpack.prod.conf")
+const webpackConfig = require("./webpack.output")
 webpack(webpackConfig, function(err, stats){
 
 })
