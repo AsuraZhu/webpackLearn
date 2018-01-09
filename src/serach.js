@@ -1,3 +1,3 @@
 import a from './module'
 a();
-console.log("out.put")
+console.log("serach");
